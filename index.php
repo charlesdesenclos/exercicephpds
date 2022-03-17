@@ -33,10 +33,10 @@
         {
             $trouve = false;
             foreach ($Tableau_User as  $TheUser) {
-                //si le user du formulaire = le nom d'un user dans la liste alors on vérifie mdp
+                //si le nom du formulaire est égale au nom d'un user dans la liste alors on vérifie mdp
                 if($TheUser->getNom()==$_POST['nom']){
                     $trouve = true;
-                    //on va vérifier le mdp du formulaire avec celui de user trouvé
+                    //on va vérifier le mdp du formulaire avec celui de user trouver
                     if($TheUser->SeConnecter($_POST['mdp'])){
                         ?>
                         <h2>Bienvenue !</h2>

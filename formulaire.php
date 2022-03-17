@@ -16,6 +16,7 @@
         {
         ?>
             <?php echo "<h1>Connecte toi !</h1>"; ?>
+            <!--Initialisation formulaire-->
             <div id="container">
                 <form action="" method="POST"> 
                     <h1>Connexion</h1>

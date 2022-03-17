@@ -1,15 +1,15 @@
 <?php
     
     class User{
-
+        //Propriété 
         private $id_;
         private $nom_;
         private $mdp_;
-        //Propriété (Private)
-        //Membres
+        
+        
 
 
-        //Méthodes (Public)
+        //Méthodes 
         public function __construct($id_,$NewNom, $NewMdp)
         {
             $this-> nom_ = $NewNom;

@@ -1,6 +1,7 @@
 <?php
     $Tableau_User = array();
-    try {
+    try { 
+        //initialisation du PDO
         $bdd = new PDO("mysql:host=mysql-desenclos.alwaysdata.net;dbname=desenclos_exercice;charset=utf8", "desenclos", "sqK8ZUWxuvEpp!y");
         $req = "SELECT * FROM utilisateurs";
         $reponses = $bdd->query($req);
