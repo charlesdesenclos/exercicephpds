@@ -9,7 +9,7 @@
         
 
 
-        //Méthodes 
+        //Méthodes + constructeur
         public function __construct($id_,$NewNom, $NewMdp)
         {
             $this-> nom_ = $NewNom;
